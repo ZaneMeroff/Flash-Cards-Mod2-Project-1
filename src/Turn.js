@@ -13,7 +13,7 @@ class Turn {
   }
 
   evaluateGuess() {
-    if (this.guess === 'sea otter') {
+    if (this.guess === this.card.correctAnswer) {
       return true;
     } else {
       return false;
@@ -22,9 +22,9 @@ class Turn {
 
   giveFeedback() {
     if (this.evaluateGuess() === true) {
-      return 'correct!';
+      return 'CORRECT!';
     } else {
-      return 'incorrect!';
+      return 'WRONG!';
     }
   }
 
