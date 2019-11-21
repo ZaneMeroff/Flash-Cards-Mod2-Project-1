@@ -15,12 +15,14 @@ const prototypeData = [{
   "correctAnswer": "mutator method"
 }, {
   "id": 4,
-  "question": "What type of prototype method does not modify the existing array but returns a particular representation of the array?",
+  "question": `What type of prototype method does not modify the existing array but returns
+  a particular representation of the array?`,
   "answers": ["mutator method", "accessor method", "iteration method"],
   "correctAnswer": "accessor method"
 }, {
   "id": 5,
-  "question": "What type of prototype method loops through the existing array and applies a callback function that may mutate each element and return a new value?",
+  "question": `What type of prototype method loops through the existing array and applies a
+  callback function that may mutate each element and return a new value?`,
   "answers": ["mutator method", "accessor method", "iteration method"],
   "correctAnswer": "iteration method"
 }, {
@@ -45,32 +47,38 @@ const prototypeData = [{
   "correctAnswer": "boolean"
 }, {
   "id": 10,
-  "question": "Which iteration method returns the first array element where the callback function returns true",
+  "question": `Which iteration method returns the first array element where the callback
+  function returns true`,
   "answers": ["find()", "filter()", "forEach()"],
   "correctAnswer": "find()"
 }, {
   "id": 11,
-  "question": "Which iteration method returns a new array with all elements that match a given condition?",
+  "question": `Which iteration method returns a new array with all elements that match
+  a given condition?`,
   "answers": ["filter()", "find()", "map()"],
   "correctAnswer": "filter()"
 }, {
   "id": 12,
-  "question": "Which iteration method returns an array of the same length as the original array?",
+  "question": `Which iteration method returns an array of the same length as the
+  original array?`,
   "answers": ["map()", "forEach()", "reduce()"],
   "correctAnswer": "map()"
 }, {
   "id": 13,
-  "question": "The callback function for map() returns a modified version of the current element.",
+  "question": `The callback function for map() returns a modified version of the
+  current element.`,
   "answers": ["true", "false"],
   "correctAnswer": "true"
 }, {
   "id": 14,
-  "question": "Which iteration method can turn an array into a single value of any data type?",
+  "question": `Which iteration method can turn an array into a single value of any
+  data type?`,
   "answers": ["reduce()", "map()", "filter()"],
   "correctAnswer": "reduce()"
 }, {
   "id": 15,
-  "question": "The callback function for reduce() takes in an accumulator and a current element.",
+  "question": `The callback function for reduce() takes in an accumulator and a
+  current element.`,
   "answers": ["true", "false"],
   "correctAnswer": "true"
 }, {
@@ -110,7 +118,8 @@ const prototypeData = [{
   "correctAnswer": "Object.keys()"
 }, {
   "id": 23,
-  "question": "Which prototype method can make a copy of a pre-existing object or merge two or more objects together?",
+  "question": `Which prototype method can make a copy of a pre-existing object or merge
+  two or more objects together?`,
   "answers": ["Object.assign()", "Object.keys()", "filter()"],
   "correctAnswer": "Object.assign()"
 }, {
@@ -125,12 +134,14 @@ const prototypeData = [{
   "correctAnswer": "true"
 }, {
   "id": 26,
-  "question": "shift(), unshift(), pop(), and push() are examples of what type of array property method?",
+  "question": `shift(), unshift(), pop(), and push() are examples of what type of
+  array property method?`,
   "answers": ["mutator method", "accessor method", "iteration method"],
   "correctAnswer": "mutator method"
 }, {
   "id": 27,
-  "question": "Accessor methods permanently modify the original array, mutator methods do not.",
+  "question": `Accessor methods permanently modify the original array, mutator
+  methods do not.`,
   "answers": ["true", "false"],
   "correctAnswer": "false"
 }, {
@@ -140,16 +151,18 @@ const prototypeData = [{
   "correctAnswer": "Object.keys()"
 }, {
   "id": 29,
-  "question": "map() takes in two optional arguments: the index of the current element, and the array that map was called upon",
+  "question": `map() takes in two optional arguments: the index of the current element,
+  and the array that map was called upon`,
   "answers": ["true", "false"],
   "correctAnswer": "true"
 }, {
   "id": 30,
-  "question": "What type of methods are functions that allow you to manipulate the value of a particular data type or class?",
+  "question": `What type of methods are functions that allow you to manipulate the value
+  of a particular data type or class?`,
   "answers": ["prototype method", "object", "callback function"],
   "correctAnswer": "prototype method"
 }]
 
 module.exports = {
-  prototypeData 
+  prototypeData
 }
