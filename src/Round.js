@@ -31,7 +31,17 @@ class Round {
    }
 
   endRound() {
-    console.log(`** Round over! ** You answered ${this.calculatePercentageCorrect()}% of the questions correctly!`);
+    console.log(`
+      *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+      -----------------------------------------------------------------------------
+
+                                  R O U N D   O V E R !
+
+                     You answered ${this.calculatePercentageCorrect()}% of the questions correctly!
+
+      -----------------------------------------------------------------------------
+      *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*`
+    );
     return `** Round over! ** You answered ${this.calculatePercentageCorrect()}% of the questions correctly!`;
   }
 
