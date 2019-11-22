@@ -23,8 +23,7 @@ class Game {
         prototypeQuestions[i].id,
         prototypeQuestions[i].questions,
         prototypeQuestions[i].answers,
-        prototypeQuestions[i].correctAnswer
-      );
+        prototypeQuestions[i].correctAnswer);
       this.cards.push(card);
     }
     const deck = new Deck(prototypeQuestions);
@@ -34,12 +33,17 @@ class Game {
   }
 
   printMessage(deck, round) {
-      console.log(`
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-*---------------------------------------------------------------------------*
-*        Welcome to FlashCards! You are playing with ${deck.countCards()} cards.              *
-*---------------------------------------------------------------------------*
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*`)
+    console.log(`
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+*-------------------------------------------------------------------------------*
+*                                                                               *
+*             Welcome to FlashCards! You are playing with ${deck.countCards()} cards.             *
+*                                                                               *
+*                               G O O D  L U C K !                              *
+*                                                                               *
+*-------------------------------------------------------------------------------*
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*`)
   }
 
 }
